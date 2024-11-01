@@ -1,0 +1,146 @@
+/* CSS Action for QuicKeys's Admin Section
+ * Written by : Nimrod Tsabari | omniWP
+ * @ 16.09.2012
+ */
+#wpcc-admin .page_title {
+	font-size: 46px;
+	line-height: 1em;
+	margin: 10px 0 10px -20px;
+	background: #F0F0F0;
+	padding: 10px 20px 5px 20px;
+	border-bottom: 2px solid #BBB;
+	text-shadow: 1px 1px white;
+}
+#wpcc-admin .page_title span {
+	font-size: 32px;
+	color: #888;
+}
+#wpcc-content {
+	width: 50%;
+	position: relative;
+	margin: 50px auto 20px;
+}
+#wpcc-admin {
+	padding: 20px;
+}
+textarea.wpcc_core_more {
+	display: block;
+	margin: 5px 0px;
+	width: 100%;
+}
+.wpcc_options_table thead td {
+	padding: 15px;
+	border-radius: 10px 10px 0 0;
+}
+.wpcc_options_table thead td {
+	background: #666 !important;
+}
+.wpcc_options_table thead h2 {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 10px 0 10px;
+	text-align: center;
+	text-shadow: 1px 1px #000;
+	color: white;
+}
+.wpcc_options_table thead p {
+	font-size: 12px;
+	margin: 5px 0 0 0;
+}
+.wpcc_options_table {
+	width: 100%;
+}
+.wpcc_options_table p {
+	margin-top: 5px;
+	font-size: 12px;
+}
+.wpcc_options_table label {
+	font-size: 14px;
+	font-weight: 600;
+}
+#wpcc_alerts_box p {
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #888;
+	padding-bottom: 10px;
+}
+label.wpcc-light {
+	font-weight: bold;
+	font-size: 12px;
+	width: 26%;
+	display: inline-block;
+	margin: 10px 0;
+}
+input.wpcc_alerts {
+	width: 71%;
+}
+.wpcc_options_table select {
+	margin: 0px 0px 0px 10px;
+}
+.wpcc_options_table td {
+	padding: 10px;
+	background: #F0F0F0;
+}
+.wpcc_checkbox {
+	display: block;
+	padding: 5px 10px;
+	background: #f0f0f0;
+	border-radius: 5px;
+	margin: 10px 0 0 0;
+	border: 1px solid #BBB;
+}
+.wpcc_checkbox input {
+	margin-right: 3px;
+}
+.wpcc_submit_section td {
+	background: #aaa !important;
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+}
+.wpcc_submit_section input[type="submit"] {
+	padding: 10px 20px;
+	font-family: georgia;
+	font-size: 18px !important;
+	font-weight: 400;
+}
+#wpcc-legend {
+	padding: 0 10px;
+}
+#wpcc-legend ul {
+	padding: 0 20px;
+}
+.wpcc-code {
+	background: #777;
+	color: white;
+	padding: 3px 5px;
+	font-family: 'Lucida Console';
+	font-size: 14px;
+}
+p.wpcc-title {
+	font-size: 15px !important;
+	font-weight: bold;
+	padding: 10px 0 0 0px;
+}
+#specific-pids-box { margin: 5px 0 0 0; }
+.wpcc-gray-td { background: #eee; }
+.wpcc-gray td { background: #ddd; }
+.wpcc-admin-show { display: block; }
+.wpcc-admin-hidden { display: none; }
+
+#wpcc-admin.clearfix:before,
+#wpcc-admin.clearfix:after,
+#wpcc-admin .clearfix:before,
+#wpcc-admin .clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+#wpcc-admin.clearfix:after,
+#wpcc-admin .clearfix:after { clear: both; }
+#wpcc-admin.clearfix,
+#wpcc-admin .clearfix { zoom: 1; }
+#wpcc-admin .left { float: left; }
+#wpcc-admin .right { float: right; }
